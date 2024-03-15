@@ -18,7 +18,7 @@ namespace atacadoOuVarejo
             Console.WriteLine("De 11 a 20 unidades: 10% de desconto");
             Console.WriteLine("De 21 a 50 unidades: 20% de desconto ");
             Console.WriteLine("Acima de 50 unidades: 25% de desconto");
-            Console.WriteLine($"Quantas unidades {produto}, você vai querer?");
+            Console.WriteLine($"Qual a quantidade de {produto}, você vai querer?");
               int quantidade = int.Parse(Console.ReadLine());
             Console.WriteLine($"Aqui não é Casas Bahias, mas vor te perguntar, Vai querer pagar quanto em cada {produto}?");
             double preco = double.Parse(Console.ReadLine());
